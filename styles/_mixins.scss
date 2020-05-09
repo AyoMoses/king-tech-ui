@@ -1,0 +1,153 @@
+@mixin radius-12px {
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+@mixin radius-6px {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+@mixin radius-3px {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+@mixin radius-200px {
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+
+@mixin radius-50 {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+// MEDIA QUERY
+@mixin deskTopFirst($media) {
+    @media screen and (max-width: $media/16+em) {
+        @content;
+    }
+}
+
+@mixin mobileFirst($media) {
+    @media screen and (min-width: $media/16+em) {
+        @content;
+    }
+}
+
+@mixin transition {
+
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+@mixin transition-color {
+
+    transition: color .3s linear;
+    -webkit-transition: color .3s linear;
+    -moz-transition: color .3s linear;
+    -ms-transition: color .3s linear;
+    -o-transition: color .3s linear;
+}
+
+// FLEX FLOW
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+// FLEX SPACE BETWEEN
+@mixin flex-space-between {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// FLEX ROW-ALONE
+@mixin row {
+    display: flex;
+    flex-direction: row;
+}
+
+//FLEX COLUMN
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// FLEX COLUMN-ALONE
+@mixin column {
+    display: flex;
+    flex-direction: column;
+}
+
+// PRIMARY BUTTON STYLE
+// @mixin primary-btn {
+
+//     background: $brand-color;
+//     @include border-radius-5px;
+//     @include transition;
+//     border: none;
+//     outline: none;
+//     text-align: center;
+//     color: $white;
+
+//     &:hover {
+
+//         cursor: pointer;
+//         background: darken($color: $brand-colorDeep, $amount: 3%);
+//         box-shadow: 0 3px 5px 5px rgba($color: $brand-color, $alpha: .5);
+//     }
+
+//     &:focus {
+
+//         box-shadow: 0 0 0 5px rgba($color: $brand-color, $alpha: .5);
+//         background: darken($color: $brand-colorDeep, $amount: 6%);
+//     }
+
+//     &.active {
+//         background: darken($color: $brand-colorDeep, $amount: 6%);
+//     }
+// }
+
+// @mixin font-hover {
+//     @include transition;
+//     color: $font-color;
+  
+//     &:focus {
+//       color: darken($color: $brand-color, $amount: 10%);
+//     }
+  
+//     &:active {
+//       color: lighten($color: $brand-color, $amount: 5%);
+//     }
+  
+//     &:hover {
+//       color: $brand-color;
+//     }
+//   }
