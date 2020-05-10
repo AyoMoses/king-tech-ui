@@ -3,7 +3,7 @@
 
 .services-hero-wrap {
 
-    background: url('../../../assets/bitmaps/t.png');
+    background: url('../../../assets/bitmaps/t.png') $brand-color;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,6 +165,12 @@
                     color: $font-rgba;
                     text-align: left;
 
+                }
+
+                .brand-color {
+
+                    color: lighten($color: $brand-color, $amount: 2%);
+                    font-weight: 600;
                 }
             }
         }

@@ -537,7 +537,7 @@ h6 {
 }
 
 .services-hero-wrap {
-  background: url("../../../assets/bitmaps/t.png");
+  background: url("../../../assets/bitmaps/t.png") #00E0C7;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -722,5 +722,10 @@ h6 {
     color: rgba(0, 0, 0, 0.8);
     text-align: left;
   }
+}
+
+.services-wrap .service--section .service-details .service-detail .brand-color {
+  color: #00ead0;
+  font-weight: 600;
 }
 /*# sourceMappingURL=services.css.map */
