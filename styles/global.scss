@@ -354,8 +354,8 @@ h6 {
 
         .footer-logo {
 
-            width: 300px;
-            height: 150px;
+            width: 200px;
+            height: 100px;
             margin: 0 auto;
 
             @include mobileFirst(769) {
@@ -419,7 +419,7 @@ h6 {
     .horizontal-line {
 
         border-top: 1px solid rgba(0, 0, 0, 0.5);
-        margin: 60px 0;
+        margin: 30px 0;
         width: 100%;
 
         @include mobileFirst(769) {
@@ -449,7 +449,7 @@ h6 {
             text-align: center;
             letter-spacing: -0.015em;
             color: $font-rgba;
-            margin-top: 80px;
+            margin-top: 40px;
             margin-bottom: 20px;
 
 
@@ -516,9 +516,19 @@ h6 {
 
                             fill: lighten($color: #075966, $amount: 20%);
                         }
+                        &:focus {
+
+                            fill: lighten($color: #075966, $amount: 4%);
+                        }
                     }
                 }
             }
         }
     }
+}
+
+.brand-color {
+
+    color: lighten($color: $brand-color, $amount: 2%);
+    font-weight: 600;
 }
