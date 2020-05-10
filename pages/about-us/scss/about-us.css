@@ -321,6 +321,12 @@ h6 {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 48.0625em) {
+  .footer-wrap {
+    max-width: calc(100% - 170px);
+  }
+}
+
 .footer-wrap .footer-top {
   display: -webkit-box;
   display: -ms-flexbox;

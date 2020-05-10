@@ -340,6 +340,11 @@ h6 {
     max-width: calc(100% - 50px);
     margin: 0 auto;
 
+    @include mobileFirst(769) {
+
+        max-width: calc(100% - 170px);
+    }
+
     .footer-top {
 
         @include column;
