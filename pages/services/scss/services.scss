@@ -11,6 +11,12 @@
     width: 100%;
     max-width: 100%;
 
+    @include mobileFirst(769) {
+
+        height: 70vh;
+   
+    }
+
     .hero-text {
 
         font-weight: 600;

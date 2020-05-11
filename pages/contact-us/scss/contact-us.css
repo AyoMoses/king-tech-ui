@@ -217,8 +217,8 @@ h6 {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 100vh;
-  height: 100vh;
+  max-height: 65vh;
+  height: 65vh;
   background: #00E0C7;
   color: #ffffff;
   position: absolute;
@@ -574,6 +574,12 @@ h6 {
   max-width: 100%;
 }
 
+@media screen and (min-width: 48.0625em) {
+  .contact-us-hero-wrap {
+    height: 75vh;
+  }
+}
+
 .contact-us-hero-wrap .contact-hero-header {
   font-weight: 600;
   font-size: 1.5rem;
@@ -583,10 +589,30 @@ h6 {
   color: #ffffff;
 }
 
+@media screen and (min-width: 48.0625em) {
+  .contact-us-hero-wrap .contact-hero-header {
+    text-align: left;
+    font-weight: 600;
+    font-size: 3.175rem;
+    line-height: 62px;
+    letter-spacing: -0.015em;
+    color: #ffffff;
+    width: 100%;
+    padding-left: 89px;
+  }
+}
+
 .contact-us-hero-wrap .contact-hero-header .hero-break {
   display: block;
   font-size: 1rem;
   text-align: center;
+}
+
+@media screen and (min-width: 48.0625em) {
+  .contact-us-hero-wrap .contact-hero-header .hero-break {
+    text-align: left;
+    font-size: 1.5rem;
+  }
 }
 
 .contact-us__inner {
@@ -615,7 +641,7 @@ h6 {
 @media screen and (min-width: 48.0625em) {
   .contact-us__inner .page-content-header {
     text-align: left;
-    font-size: 2.125rem;
+    font-size: 2.5rem;
     line-height: 72px;
     padding-bottom: 50px;
   }
@@ -670,7 +696,7 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .contact-us__inner .contact-details-wrap .contact-detail-col .contact-detail-header {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: left;
   }
 }
@@ -684,7 +710,7 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .contact-us__inner .contact-details-wrap .contact-detail-col .contact-detail-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: left;
   }
 }

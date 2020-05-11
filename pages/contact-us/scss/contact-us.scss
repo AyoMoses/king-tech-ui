@@ -12,6 +12,12 @@
     width: 100%;
     max-width: 100%;
 
+    @include mobileFirst(769) {
+
+        height: 75vh;
+
+    }
+
     .contact-hero-header {
 
         font-weight: 600;
@@ -21,11 +27,31 @@
         letter-spacing: -0.015em;
         color: $white;
 
+        @include mobileFirst(769) {
+
+            text-align: left;
+            font-weight: 600;
+            font-size: 3.175rem;
+            line-height: 62px;
+            letter-spacing: -0.015em;
+            color: $white;
+            width: 100%;
+            padding-left: 89px;
+        }
+
         .hero-break {
 
             display: block;
             font-size: 1rem;
             text-align: center;
+
+            @include mobileFirst(769) {
+
+                text-align: left;
+                font-size: 1.5rem;
+               
+            }
+    
 
         }
     }
@@ -57,7 +83,7 @@
         @include mobileFirst(769) {
 
             text-align: left;
-            font-size: 2.125rem;
+            font-size: 2.5rem;
             line-height: 72px;
             padding-bottom: 50px;
 
@@ -104,10 +130,10 @@
 
                 @include mobileFirst(769) {
 
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                     text-align: left;
                 }
-    
+
             }
 
             .contact-detail-text {
@@ -119,7 +145,7 @@
 
                 @include mobileFirst(769) {
 
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     text-align: left;
                 }
 
@@ -143,6 +169,7 @@
 
                         color: darken($color: $brand-color, $amount: 10%);
                     }
+
                     &:focus {
 
                         color: darken($color: $brand-color, $amount: 14%);

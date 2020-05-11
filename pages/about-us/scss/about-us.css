@@ -217,8 +217,8 @@ h6 {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 100vh;
-  height: 100vh;
+  max-height: 65vh;
+  height: 65vh;
   background: #00E0C7;
   color: #ffffff;
   position: absolute;
@@ -562,7 +562,7 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .about-us-hero {
-    height: 55vh;
+    height: 70vh;
   }
 }
 
@@ -579,9 +579,10 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .about-us-hero .about-us-hero--text {
-    font-size: 48px;
-    padding-right: 120px;
+    font-size: 3rem;
+    padding-right: 150px;
     padding-top: 90px;
+    line-height: 60px;
   }
 }
 
@@ -589,6 +590,13 @@ h6 {
   color: rgba(0, 0, 0, 0.8);
   font-size: 1rem;
   display: block;
+  opacity: .6;
+}
+
+@media screen and (min-width: 48.0625em) {
+  .about-us-hero .about-us-hero--text .small-text {
+    font-size: 1.3rem;
+  }
 }
 
 .company-details-wrapper {
@@ -610,11 +618,13 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .company-details-wrapper .company-details-header {
+    font-weight: bolder;
     width: 100%;
     max-width: calc(100% - 178px);
     margin: 0 auto;
     text-align: left;
-    font-size: 2.2rem;
+    font-size: 3rem;
+    line-height: 53px;
     padding-top: 1em;
   }
 }
@@ -645,6 +655,13 @@ h6 {
   color: #000000;
 }
 
+@media screen and (min-width: 48.0625em) {
+  .company-details-wrapper .profile-wrapper .company-profile-header {
+    font-size: 2.3rem;
+    margin-top: 70px;
+  }
+}
+
 .company-details-wrapper .profile-wrapper .profile-details {
   font-size: 1rem;
   line-height: 37px;
@@ -654,7 +671,8 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .company-details-wrapper .profile-wrapper .profile-details {
-    line-height: 30px;
+    line-height: 40px;
+    font-size: 1.4rem;
   }
   .company-details-wrapper .profile-wrapper .profile-details .break-desktop {
     display: block;
@@ -689,7 +707,7 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .who-we-work-with .work-with--header {
-    font-size: 2.375rem;
+    font-size: 2.78rem;
     text-align: right;
     margin: 65px 0;
   }
@@ -750,8 +768,8 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .who-we-work-with .work-with-section__inner .work-with-section .who-we-are-icon-wrap .who-we-are-icon {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     fill: #075966;
   }
 }
@@ -768,7 +786,7 @@ h6 {
 
 @media screen and (min-width: 48.0625em) {
   .who-we-work-with .work-with-section__inner .work-with-section .section-header {
-    font-size: 1.35rem;
+    font-size: 1.55rem;
     margin: 34px 0 27px 0;
   }
 }
@@ -777,6 +795,13 @@ h6 {
   font-size: .9rem;
   margin-bottom: 4.5em;
   text-align: center;
+}
+
+@media screen and (min-width: 48.0625em) {
+  .who-we-work-with .work-with-section__inner .work-with-section .work-with-section-detail {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
 }
 
 .like-what-you-see {

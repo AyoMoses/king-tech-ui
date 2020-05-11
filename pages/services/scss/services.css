@@ -217,8 +217,8 @@ h6 {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 100vh;
-  height: 100vh;
+  max-height: 65vh;
+  height: 65vh;
   background: #00E0C7;
   color: #ffffff;
   position: absolute;
@@ -558,6 +558,12 @@ h6 {
   height: 45vh;
   width: 100%;
   max-width: 100%;
+}
+
+@media screen and (min-width: 48.0625em) {
+  .services-hero-wrap {
+    height: 70vh;
+  }
 }
 
 .services-hero-wrap .hero-text {

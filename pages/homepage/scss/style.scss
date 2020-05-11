@@ -12,6 +12,7 @@
     background-size: 100% 90vh;
     max-width: 100%;
     background-position: bottom center;
+    background-attachment: fixed;
 
     @include mobileFirst(769) {
 
@@ -24,6 +25,7 @@
         background-size: 100% 60vh;
         background-position: bottom center;
         max-width: 100%;
+        background-attachment: fixed;
 
     }
 

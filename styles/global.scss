@@ -232,8 +232,8 @@ h6 {
 
 // WHEN MENU IS CHECKED ON MOBILE
 .header .menu-btn:checked~.menu {
-    max-height: 100vh;
-    height: 100vh;
+    max-height: 65vh;
+    height: 65vh;
     background: $brand-color;
     color: $white;
     position: absolute;
